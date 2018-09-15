@@ -100,7 +100,7 @@ exports.default = {
   testRegex: '',
   testResultsProcessor: null,
   testRunner: 'jasmine2',
-  testURL: 'about:blank',
+  testURL: 'http://localhost',
   timers: 'real',
   transform: null,
   transformIgnorePatterns: [NODE_MODULES_REGEXP],
