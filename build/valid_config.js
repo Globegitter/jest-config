@@ -111,7 +111,7 @@ exports.default = {
   testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.jsx?$',
   testResultsProcessor: 'processor-node-module',
   testRunner: 'jasmine2',
-  testURL: 'about:blank',
+  testURL: 'http://localhost',
   timers: 'real',
   transform: {
     '^.+\\.js$': '<rootDir>/preprocessor.js'
